@@ -2,7 +2,7 @@ This repository contains a series of structured exercises and mini-projects deve
 
 ---
 
-## 📁 Contents
+##  Contents
 
 ### 1. HTML/CSS/JS Web Project
 
@@ -45,7 +45,7 @@ A comprehensive SQL script featuring:
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Web Project
 
@@ -70,7 +70,7 @@ Use a MySQL-compatible database to run `ansi_sql_exercises.sql`.
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 * Semantic HTML & responsive design
 * Modern CSS styling with media queries
@@ -81,7 +81,7 @@ Use a MySQL-compatible database to run `ansi_sql_exercises.sql`.
 
 ---
 
-## 📌 Repository Structure
+##  Repository Structure
 
 ```
 cognizant-exercises/
@@ -95,7 +95,7 @@ cognizant-exercises/
 
 ---
 
-## ✨ Author
+##  Author
 
 Created by Apoorb Raj as part of Cognizant's technical skill-building initiatives.
 
