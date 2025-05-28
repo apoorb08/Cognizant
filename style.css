@@ -1,0 +1,138 @@
+/* === Global Reset === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* === Body === */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: url('images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* === Header Banner === */
+  #welcomeBanner {
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* === Highlighted Text === */
+  .highlight {
+    background-color: yellow;
+  }
+  
+  /* === Navigation Styling === */
+  nav a:link {
+    color: navy;
+    text-decoration: none;
+  }
+  nav a:visited {
+    color: gray;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  nav a:active {
+    color: red;
+  }
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  /* === Headings and Gradient Text === */
+  h2 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* === Group Styling for <h3> and <p> === */
+  h3, p {
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  /* === Image Styling === */
+  .img-border {
+    border: 2px solid gray;
+    padding: 4px;
+  }
+  
+  /* === Event Table === */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #f9f9f9;
+  }
+  tr:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* === Event Cards (for future use) === */
+  .eventCard {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px 0;
+  }
+  
+  /* === Form Styling === */
+  form {
+    margin-top: 20px;
+  }
+  input, textarea, select {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+  input:focus, textarea:focus {
+    outline: 2px solid #007BFF;
+  }
+  
+  /* === Bulletin Columns === */
+  .news-columns {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid gray;
+    margin-top: 20px;
+  }
+  
+  /* === Responsive Media Query === */
+  @media screen and (max-width: 768px) {
+    nav a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    img {
+      width: 100% !important;
+      height: auto;
+    }
+  
+    body {
+      font-size: 14px;
+    }
+  
+    .news-columns {
+      column-count: 1;
+    }
+  }
+  
